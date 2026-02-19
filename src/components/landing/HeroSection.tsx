@@ -22,17 +22,13 @@ const HeroSection = () => {
           </span>
 
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Aprende a invertir desde cero y{" "}
-            <span className="text-gradient-gold">construye tu futuro financiero</span>{" "}
-            paso a paso
+            Tu dinero pierde valor todos los días.{" "}
+            <span className="text-gradient-gold">Aprendé a invertir desde cero</span>{" "}
+            y empezá a construir tu futuro financiero paso a paso.
           </h1>
 
-          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-4">
-            La inflación destruye tus ahorros cada día. Mientras tu plata pierde valor,
-            aprender a invertir es la única forma de proteger y multiplicar tu dinero.
-          </p>
-          <p className="text-base text-muted-foreground max-w-xl mx-auto mb-10">
-            5 guías PDF descargables. Sin experiencia previa necesaria. Resultados desde el día 1.
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
+            5 guías prácticas para pasar de principiante a inversor con claridad, sin experiencia previa y sin promesas irreales.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-10">

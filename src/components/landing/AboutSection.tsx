@@ -16,17 +16,13 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-4 text-secondary-foreground leading-relaxed">
             <p>
-              Soy un inversor autodidacta. No vengo de una familia de dinero ni estudié finanzas en la universidad. 
-              Todo lo que sé lo aprendí investigando, probando y, sobre todo, <strong className="text-foreground">cometiendo errores</strong>.
+              Soy un inversor autodidacta con años de experiencia invirtiendo en <strong className="text-foreground">acciones y criptomonedas</strong>. No vengo de una familia de dinero ni estudié finanzas en la universidad. Todo lo que sé lo aprendí investigando, probando y, sobre todo, <strong className="text-foreground">cometiendo errores</strong>.
             </p>
             <p>
-              Después de años aprendiendo por las malas, decidí crear el material que a mí me hubiera gustado tener 
-              cuando empecé: algo <strong className="text-foreground">claro, directo y sin humo</strong>.
+              A lo largo del tiempo desarrollé un <strong className="text-foreground">sistema simple</strong>, enfocado en el largo plazo, la gestión de riesgo y la toma de decisiones inteligentes. Mi objetivo es que puedas empezar a invertir con <strong className="text-foreground">claridad y confianza</strong>, evitando los errores que le cuestan dinero a la mayoría de las personas.
             </p>
             <p>
-              Estas guías son el resultado de ese proceso. No te prometo hacerte millonario. Te prometo darte las 
-              herramientas y el conocimiento para que <strong className="text-foreground">tomes el control de tu dinero</strong> y 
-              empieces a construir tu futuro financiero con confianza.
+              Estas guías son el resultado de <strong className="text-foreground">años de aprendizaje real en el mercado</strong>.
             </p>
             <p className="text-primary font-medium italic">
               "Mi objetivo es simple: que no tengas que pasar por los mismos errores que yo cometí."
