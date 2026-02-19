@@ -44,6 +44,20 @@ const BenefitsSection = () => {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mt-14"
+        >
+          <a
+            href="#precio"
+            className="inline-block bg-gradient-gold text-primary-foreground font-bold text-lg px-12 py-4 rounded-lg glow-gold hover:scale-105 transition-transform duration-300"
+          >
+            Quiero empezar hoy
+          </a>
+        </motion.div>
       </div>
     </section>
   );

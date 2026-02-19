@@ -35,16 +35,24 @@ const PriceSection = () => {
           viewport={{ once: true }}
           className="bg-gradient-card rounded-2xl border border-gold p-8 shadow-gold text-center"
         >
+          <span className="inline-block text-primary font-semibold text-sm mb-3 animate-pulse">
+            ⏳ Precio de lanzamiento disponible por tiempo limitado
+          </span>
+
           <span className="text-sm text-muted-foreground line-through block mb-1">
             Valor real: $25.000 ARS
           </span>
           <div className="mb-1">
             <span className="text-5xl sm:text-6xl font-bold font-display text-gradient-gold">$13.000</span>
           </div>
-          <span className="text-muted-foreground text-sm block mb-6">ARS · Pago único</span>
+          <span className="text-muted-foreground text-sm block mb-2">ARS · Pago único</span>
+
+          <span className="text-primary/80 text-xs block mb-6 italic">
+            Oferta especial válida solo por tiempo limitado.
+          </span>
 
           <span className="inline-block bg-primary/10 text-primary text-xs font-bold px-3 py-1 rounded-full mb-8">
-            🔥 PRECIO DE LANZAMIENTO — OFERTA POR TIEMPO LIMITADO
+            🔥 PRECIO DE LANZAMIENTO
           </span>
 
           <ul className="text-left space-y-3 mb-8">

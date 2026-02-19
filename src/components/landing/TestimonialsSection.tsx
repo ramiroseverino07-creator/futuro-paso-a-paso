@@ -3,34 +3,40 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Martín L.",
-    age: 28,
-    text: "Siempre quise invertir pero no sabía por dónde arrancar. Con estas guías entendí todo en una semana y ya hice mi primera inversión. Increíble lo claro que está explicado.",
+    name: "Martina R.",
+    age: 24,
+    occupation: "Estudiante",
+    text: "Siempre pensé que invertir era algo inalcanzable para mí. Estas guías me dieron la claridad que necesitaba para dar el primer paso sin miedo.",
   },
   {
-    name: "Camila R.",
-    age: 24,
-    text: "Pensaba que invertir era solo para gente con mucha plata. Ramiro me demostró lo contrario. Arranqué con poco y ya estoy viendo resultados.",
+    name: "Camila D.",
+    age: 35,
+    occupation: "Administrativa",
+    text: "Me ayudó a entender qué hacer con mis ahorros en vez de dejarlos perder valor. Ahora tengo un plan claro y me siento mucho más segura.",
   },
   {
     name: "Santiago M.",
-    age: 35,
-    text: "Lo mejor es que no te vende humo. Es honesto, directo y te explica paso a paso. Las guías de mentalidad fueron un antes y un después para mí.",
-  },
-  {
-    name: "Valentina G.",
-    age: 31,
-    text: "El nivel avanzado me ayudó a abrir mi broker y entender cómo armar un portafolio diversificado. Muy agradecida con este material.",
-  },
-  {
-    name: "Nicolás P.",
-    age: 22,
-    text: "Tengo 22 años y gracias a estas guías empecé a invertir antes que cualquiera de mis amigos. El interés compuesto va a hacer la diferencia a largo plazo.",
+    age: 40,
+    occupation: "Empleado",
+    text: "Lo mejor es que no te vende humo. Te explica paso a paso, con honestidad. Arranqué desde cero y hoy entiendo cómo funciona el mercado.",
   },
   {
     name: "Lucía F.",
     age: 29,
-    text: "La guía de educación financiera me abrió los ojos. Entendí por qué mi plata perdía valor y qué podía hacer al respecto. 100% recomendado.",
+    occupation: "Emprendedora",
+    text: "Necesitaba aprender a hacer rendir mi dinero. Las guías son directas, fáciles de seguir y me dieron confianza para empezar a invertir.",
+  },
+  {
+    name: "Nicolás P.",
+    age: 20,
+    occupation: "Estudiante",
+    text: "Tengo 20 años y gracias a este material empecé antes que cualquiera de mis amigos. El interés compuesto va a hacer la diferencia.",
+  },
+  {
+    name: "Valentina G.",
+    age: 60,
+    occupation: "Jubilada",
+    text: "Pensaba que ya era tarde para aprender sobre inversiones. Ramiro explica todo tan claro que pude entenderlo y aplicarlo a mi situación.",
   },
 ];
 
@@ -68,7 +74,7 @@ const TestimonialsSection = () => {
                 "{t.text}"
               </p>
               <p className="text-sm font-semibold">
-                {t.name} <span className="text-muted-foreground font-normal">· {t.age} años</span>
+                {t.name} <span className="text-muted-foreground font-normal">· {t.age} años · {t.occupation}</span>
               </p>
             </motion.div>
           ))}
