@@ -76,7 +76,9 @@ const FAQSection = () => {
           className="text-center mt-12"
         >
           <a
-            href="#precio"
+            href="https://pay.hotmart.com/L103671504W"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-gradient-gold text-primary-foreground font-bold text-lg px-10 py-4 rounded-lg glow-gold hover:scale-105 transition-transform duration-300"
           >
             Quiero empezar a invertir hoy

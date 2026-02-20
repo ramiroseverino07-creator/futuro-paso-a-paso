@@ -33,7 +33,9 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-10">
             <a
-              href="#precio"
+              href="https://pay.hotmart.com/L103671504W"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gradient-gold text-primary-foreground font-bold text-lg px-10 py-4 rounded-lg glow-gold hover:scale-105 transition-transform duration-300 w-full sm:w-auto text-center"
             >
               Comprar ahora — $13.000 ARS
