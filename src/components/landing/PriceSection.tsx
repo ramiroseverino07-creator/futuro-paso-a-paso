@@ -65,7 +65,9 @@ const PriceSection = () => {
           </ul>
 
           <a
-            href="#precio"
+            href="https://pay.hotmart.com/L103671504W"
+            target="_blank"
+            rel="noopener noreferrer"
             className="block w-full bg-gradient-gold text-primary-foreground font-bold text-lg py-4 rounded-lg glow-gold hover:scale-[1.02] transition-transform duration-300 text-center mb-6"
           >
             Comprar ahora
