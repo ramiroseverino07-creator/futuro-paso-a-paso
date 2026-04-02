@@ -11,7 +11,7 @@ const guides = [
       "Tipos básicos de inversión: acciones, bonos, cripto",
       "Regla del 50/30/20 para organizar tu dinero",
       "Cómo crear tu fondo de emergencia",
-      "Errores comunes que debés evitar",
+      "Errores comunes que debes evitar",
     ],
     color: "from-emerald-500/20 to-emerald-900/10",
   },
@@ -47,13 +47,13 @@ const guides = [
 const bonuses = [
   {
     icon: Sparkles,
-    title: "Mentalidad del Inversor",
+    title: "Mentalidad del Inversionista",
     desc: "Cómo pensar, actuar y decidir como un ganador. Principios, hábitos y estrategias mentales para el éxito sostenible.",
   },
   {
     icon: GraduationCap,
     title: "Educación Financiera",
-    desc: "El primer paso hacia la libertad. Entendé el dinero, la inflación, y cómo los gobiernos afectan tus ahorros.",
+    desc: "El primer paso hacia la libertad. Entiende el dinero, la inflación, y cómo los gobiernos afectan tus ahorros.",
   },
 ];
 
@@ -71,11 +71,10 @@ const IncludedSection = () => {
             ¿Qué incluye el <span className="text-gradient-gold">pack completo</span>?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            5 guías PDF profesionales creadas por Ramiro Severino. Todo lo que necesitás para ir de cero a inversor inteligente.
+            5 guías PDF profesionales creadas por Ramiro Severino. Todo lo que necesitas para ir de cero a inversionista inteligente.
           </p>
         </motion.div>
 
-        {/* 3 Main Guides */}
         <div className="grid md:grid-cols-3 gap-6 mb-10">
           {guides.map((g, i) => (
             <motion.div
@@ -108,7 +107,6 @@ const IncludedSection = () => {
           ))}
         </div>
 
-        {/* Bonuses */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
