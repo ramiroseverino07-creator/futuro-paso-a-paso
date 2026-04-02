@@ -3,10 +3,10 @@ import { Eye, ShieldCheck, AlertCircle, Coins, Clock } from "lucide-react";
 
 const benefits = [
   { icon: Eye, title: "Claridad total", desc: "Vas a entender exactamente cómo funciona el mundo de las inversiones, sin tecnicismos innecesarios." },
-  { icon: ShieldCheck, title: "Confianza real", desc: "Tomá decisiones financieras con seguridad, sabiendo qué estás haciendo y por qué." },
-  { icon: AlertCircle, title: "Evitá errores costosos", desc: "Aprendé de los errores que otros ya cometieron para no repetirlos con tu dinero." },
-  { icon: Coins, title: "Empezá con poco", desc: "No necesitás grandes montos. Aprendé a invertir con lo que tenés disponible hoy." },
-  { icon: Clock, title: "A tu propio ritmo", desc: "Material descargable que podés releer cuando quieras, sin presiones ni deadlines." },
+  { icon: ShieldCheck, title: "Confianza real", desc: "Toma decisiones financieras con seguridad, sabiendo qué estás haciendo y por qué." },
+  { icon: AlertCircle, title: "Evita errores costosos", desc: "Aprende de los errores que otros ya cometieron para no repetirlos con tu dinero." },
+  { icon: Coins, title: "Empieza con poco", desc: "No necesitas grandes montos. Aprende a invertir con lo que tienes disponible hoy." },
+  { icon: Clock, title: "A tu propio ritmo", desc: "Material descargable que puedes releer cuando quieras, sin presiones ni fechas límite." },
 ];
 
 const BenefitsSection = () => {

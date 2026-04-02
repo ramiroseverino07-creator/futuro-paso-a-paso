@@ -15,7 +15,7 @@ const SolutionSection = () => {
             La solución: un <span className="text-gradient-gold">sistema paso a paso</span> para principiantes
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            No necesitás ser experto ni tener mucha plata. Este pack te lleva de la mano desde lo más básico hasta hacer tu primera inversión real.
+            No necesitas ser experto ni tener mucho dinero. Este pack te lleva de la mano desde lo más básico hasta hacer tu primera inversión real.
           </p>
         </motion.div>
 
@@ -24,20 +24,20 @@ const SolutionSection = () => {
             {
               icon: BookOpen,
               step: "01",
-              title: "Aprendé los fundamentos",
-              desc: "Organizá tus finanzas, entendé cómo funciona el dinero y eliminá creencias limitantes.",
+              title: "Aprende los fundamentos",
+              desc: "Organiza tus finanzas, entiende cómo funciona el dinero y elimina creencias limitantes.",
             },
             {
               icon: Target,
               step: "02",
-              title: "Desarrollá tu estrategia",
-              desc: "Descubrí el interés compuesto, la diversificación y cómo pensar como un inversor inteligente.",
+              title: "Desarrolla tu estrategia",
+              desc: "Descubre el interés compuesto, la diversificación y cómo pensar como un inversionista inteligente.",
             },
             {
               icon: TrendingUp,
               step: "03",
-              title: "Hacé tu primera inversión",
-              desc: "Abrí un broker, elegí tus primeros activos y empezá a construir tu patrimonio.",
+              title: "Haz tu primera inversión",
+              desc: "Abre un broker, elige tus primeros activos y empieza a construir tu patrimonio.",
             },
           ].map((s, i) => (
             <motion.div

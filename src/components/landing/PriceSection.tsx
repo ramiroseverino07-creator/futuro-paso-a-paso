@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Check, Zap, Shield, Download } from "lucide-react";
+import { Check, Zap, Shield, Download, Globe } from "lucide-react";
 
 const included = [
   "Guía Principiante – Finanzas personales",
   "Guía Intermedio – Estrategia e interés compuesto",
   "Guía Avanzado – Broker y primera inversión",
-  "Bonus: Mentalidad del Inversor",
+  "Bonus: Mentalidad del Inversionista",
   "Bonus: Educación Financiera",
   "Acceso inmediato y descarga instantánea",
   "Garantía de satisfacción de 7 días",
@@ -22,7 +22,7 @@ const PriceSection = () => {
           className="text-center mb-10"
         >
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-            Invertí en tu <span className="text-gradient-gold">educación financiera</span>
+            Invierte en tu <span className="text-gradient-gold">educación financiera</span>
           </h2>
           <p className="text-muted-foreground">
             Un pago único. Acceso de por vida. Sin suscripciones.
@@ -36,19 +36,19 @@ const PriceSection = () => {
           className="bg-gradient-card rounded-2xl border border-gold p-8 shadow-gold text-center"
         >
           <span className="inline-block text-primary font-semibold text-sm mb-3 animate-pulse">
-            ⏳ Precio de lanzamiento disponible por tiempo limitado
+            ⏳ Precio promocional por tiempo limitado
           </span>
 
           <span className="text-sm text-muted-foreground line-through block mb-1">
-            Valor real: $25.000 ARS
+            Valor real: $19 USD
           </span>
           <div className="mb-1">
-            <span className="text-5xl sm:text-6xl font-bold font-display text-gradient-gold">$13.000</span>
+            <span className="text-5xl sm:text-6xl font-bold font-display text-gradient-gold">$9</span>
           </div>
-          <span className="text-muted-foreground text-sm block mb-2">ARS · Pago único</span>
+          <span className="text-muted-foreground text-sm block mb-2">USD · Pago único</span>
 
-          <span className="text-primary/80 text-xs block mb-6 italic">
-            Oferta especial válida solo por tiempo limitado.
+          <span className="text-primary/80 text-xs block mb-2 italic">
+            Puedes pagar en tu moneda local (COP, MXN, PEN y más).
           </span>
 
           <span className="inline-block bg-primary/10 text-primary text-xs font-bold px-3 py-1 rounded-full mb-8">
@@ -82,6 +82,9 @@ const PriceSection = () => {
             </span>
             <span className="flex items-center gap-1.5 justify-center">
               <Shield className="w-3.5 h-3.5 text-primary" /> Pago 100% seguro
+            </span>
+            <span className="flex items-center gap-1.5 justify-center">
+              <Globe className="w-3.5 h-3.5 text-primary" /> Válido en toda LATAM
             </span>
           </div>
         </motion.div>

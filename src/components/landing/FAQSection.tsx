@@ -13,27 +13,31 @@ const faqs = [
   },
   {
     q: "¿Cuánto dinero necesito para empezar a invertir?",
-    a: "Podés empezar con montos muy pequeños. Las guías te enseñan a invertir con lo que tengas disponible, sin necesidad de grandes capitales.",
+    a: "Puedes empezar con montos muy pequeños. Las guías te enseñan a invertir con lo que tengas disponible, sin necesidad de grandes capitales.",
   },
   {
     q: "¿En qué formato vienen las guías?",
-    a: "Las 5 guías vienen en formato PDF de alta calidad, descargables al instante. Podés leerlas desde tu celular, tablet o computadora.",
+    a: "Las 5 guías vienen en formato PDF de alta calidad, descargables al instante. Puedes leerlas desde tu celular, tablet o computador.",
   },
   {
     q: "¿Es un curso o material pregrabado?",
-    a: "Son guías PDF descargables que podés leer a tu propio ritmo. No es un curso con horarios fijos. Podés releerlas las veces que quieras.",
+    a: "Son guías PDF descargables que puedes leer a tu propio ritmo. No es un curso con horarios fijos. Puedes releerlas las veces que quieras.",
   },
   {
     q: "¿Qué pasa si no me sirve?",
-    a: "Tenés una garantía de satisfacción de 7 días. Si no estás conforme, te devolvemos el 100% de tu dinero sin preguntas.",
+    a: "Tienes una garantía de satisfacción de 7 días. Si no estás conforme, te devolvemos el 100% de tu dinero sin preguntas.",
   },
   {
-    q: "¿Las guías funcionan para cualquier país de Latinoamérica?",
-    a: "Sí. Los conceptos y estrategias son universales. Si bien algunos ejemplos usan pesos argentinos, los principios aplican para cualquier moneda y mercado.",
+    q: "¿Las guías funcionan para Colombia y otros países?",
+    a: "Sí. Los conceptos y estrategias son universales y aplican para cualquier país de Latinoamérica. Puedes pagar en tu moneda local.",
   },
   {
     q: "¿Voy a aprender a usar un broker real?",
     a: "Sí. En la guía de nivel avanzado te enseñamos paso a paso cómo abrir un broker y hacer tu primera inversión real.",
+  },
+  {
+    q: "¿El precio está en dólares?",
+    a: "Sí, el precio es de $9 USD. La plataforma de pago convierte automáticamente a tu moneda local (pesos colombianos, pesos mexicanos, soles, etc.).",
   },
 ];
 

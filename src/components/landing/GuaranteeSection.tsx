@@ -15,7 +15,7 @@ const GuaranteeSection = () => {
             Garantía de <span className="text-gradient-gold">7 días</span>
           </h2>
           <p className="text-secondary-foreground max-w-xl mx-auto leading-relaxed">
-            Si después de leer las guías sentís que no es lo que esperabas, te devolvemos el 100% de tu dinero. 
+            Si después de leer las guías sientes que no es lo que esperabas, te devolvemos el 100% de tu dinero. 
             Sin preguntas, sin complicaciones. Tu inversión está protegida.
           </p>
         </motion.div>
