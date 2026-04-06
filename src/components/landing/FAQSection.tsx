@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "¿El precio está en dólares?",
-    a: "Sí, el precio es de $9 USD. La plataforma de pago convierte automáticamente a tu moneda local (pesos colombianos, pesos mexicanos, soles, etc.).",
+    a: "Sí, el precio es de a: "Sí, el precio es de $10 USD. La plataforma de pago convierte automáticamente a tu moneda local (pesos colombianos, pesos mexicanos, soles, etc.).",. La plataforma de pago convierte automáticamente a tu moneda local (pesos colombianos, pesos mexicanos, soles, etc.).",
   },
 ];
 

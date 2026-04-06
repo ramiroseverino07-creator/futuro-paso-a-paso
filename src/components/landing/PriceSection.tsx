@@ -43,7 +43,7 @@ const PriceSection = () => {
             Valor real: $19 USD
           </span>
           <div className="mb-1">
-            <span className="text-5xl sm:text-6xl font-bold font-display text-gradient-gold">$9</span>
+            <span className="text-5xl sm:text-6xl font-bold font-display text-gradient-gold">$10</span>
           </div>
           <span className="text-muted-foreground text-sm block mb-2">USD · Pago único</span>
 
