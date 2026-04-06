@@ -87,6 +87,11 @@ const PriceSection = () => {
               <Globe className="w-3.5 h-3.5 text-primary" /> Válido en toda LATAM
             </span>
           </div>
+
+          <div className="flex items-center justify-center gap-2 mt-4 text-xs text-muted-foreground">
+            <span className="inline-block text-base">🇨🇴</span>
+            <span>Contenido pensado para Colombia y Latinoamérica</span>
+          </div>
         </motion.div>
       </div>
     </section>
