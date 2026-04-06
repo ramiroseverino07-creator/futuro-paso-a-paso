@@ -38,7 +38,7 @@ const HeroSection = () => {
               rel="noopener noreferrer"
               className="bg-gradient-gold text-primary-foreground font-bold text-lg px-10 py-4 rounded-lg glow-gold hover:scale-105 transition-transform duration-300 w-full sm:w-auto text-center"
             >
-              Empezar hoy por $9 USD
+              Empezar hoy por $10 USD
             </a>
           </div>
 
