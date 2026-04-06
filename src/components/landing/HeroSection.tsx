@@ -22,9 +22,8 @@ const HeroSection = () => {
           </span>
 
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Tu dinero pierde valor todos los días.{" "}
-            <span className="text-gradient-gold">Aprende a invertir desde cero</span>{" "}
-            y empieza a construir tu futuro financiero paso a paso.
+            Cómo empezar a invertir desde cero en Colombia{" "}
+            <span className="text-gradient-gold">(aunque no sepas nada)</span>
           </h1>
 
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
