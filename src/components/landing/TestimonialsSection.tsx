@@ -3,46 +3,34 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Martina R.",
+    name: "Martina",
     age: 24,
-    occupation: "Estudiante",
-    location: "Bogotá",
-    text: "Siempre pensé que invertir era algo inalcanzable para mí. Estas guías me dieron la claridad que necesitaba para dar el primer paso sin miedo.",
+    text: "Antes no entendía nada de inversiones y me daba miedo empezar. Esto me ayudó a ordenar todo y dar el primer paso sin sentirme perdido.",
   },
   {
-    name: "Camila D.",
-    age: 35,
-    occupation: "Administrativa",
-    location: "Medellín",
-    text: "Me ayudó a entender qué hacer con mis ahorros en vez de dejarlos perder valor. Ahora tengo un plan claro y me siento mucho más segura.",
+    name: "Camila",
+    age: 32,
+    text: "Tenía mis ahorros quietos y no sabía qué hacer. Las guías son simples y van directo al punto, eso me ayudó mucho.",
   },
   {
-    name: "Santiago M.",
-    age: 40,
-    occupation: "Empleado",
-    location: "Ciudad de México",
-    text: "Lo mejor es que no te vende humo. Te explica paso a paso, con honestidad. Empecé desde cero y hoy entiendo cómo funciona el mercado.",
-  },
-  {
-    name: "Lucía F.",
-    age: 29,
-    occupation: "Emprendedora",
-    location: "Cali",
-    text: "Necesitaba aprender a hacer rendir mi dinero. Las guías son directas, fáciles de seguir y me dieron confianza para empezar a invertir.",
-  },
-  {
-    name: "Nicolás P.",
+    name: "Nicolás",
     age: 20,
-    occupation: "Estudiante",
-    location: "Lima",
-    text: "Tengo 20 años y gracias a este material empecé antes que cualquiera de mis amigos. El interés compuesto va a hacer la diferencia.",
+    text: "Había visto mil videos pero no sabía por dónde empezar. Esto me dio una estructura clara.",
   },
   {
-    name: "Valentina G.",
-    age: 55,
-    occupation: "Contadora",
-    location: "Barranquilla",
-    text: "Pensaba que ya era tarde para aprender sobre inversiones. Ramiro explica todo tan claro que pude entenderlo y aplicarlo a mi situación.",
+    name: "Santiago",
+    age: 38,
+    text: "No es humo. Explica todo básico y sin vueltas. Ideal si estás empezando desde cero.",
+  },
+  {
+    name: "Lucía",
+    age: 29,
+    text: "Pensé que invertir era solo para gente con mucho dinero, pero acá entendí que puedo empezar con poco.",
+  },
+  {
+    name: "Valentina",
+    age: 41,
+    text: "Lo que más me gustó es que está todo ordenado. No te abruma, te lleva paso a paso.",
   },
 ];
 
@@ -80,7 +68,7 @@ const TestimonialsSection = () => {
                 "{t.text}"
               </p>
               <p className="text-sm font-semibold">
-                {t.name} <span className="text-muted-foreground font-normal">· {t.age} años · {t.occupation} · {t.location}</span>
+                — {t.name}, <span className="text-muted-foreground font-normal">{t.age} años</span>
               </p>
             </motion.div>
           ))}

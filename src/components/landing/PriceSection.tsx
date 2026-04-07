@@ -35,6 +35,10 @@ const PriceSection = () => {
           viewport={{ once: true }}
           className="bg-gradient-card rounded-2xl border border-gold p-8 shadow-gold text-center"
         >
+          <p className="text-secondary-foreground text-sm italic mb-4">
+            Menos de lo que gastas en una salida… pero puede cambiar cómo manejas tu dinero para siempre.
+          </p>
+
           <span className="inline-block text-primary font-semibold text-sm mb-3 animate-pulse">
             ⏳ Precio promocional por tiempo limitado
           </span>
@@ -70,7 +74,7 @@ const PriceSection = () => {
             rel="noopener noreferrer"
             className="block w-full bg-gradient-gold text-primary-foreground font-bold text-lg py-4 rounded-lg glow-gold hover:scale-[1.02] transition-transform duration-300 text-center mb-6"
           >
-            Comprar ahora
+            Acceder al pack ahora
           </a>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center text-xs text-muted-foreground">
@@ -78,7 +82,7 @@ const PriceSection = () => {
               <Zap className="w-3.5 h-3.5 text-primary" /> Acceso instantáneo
             </span>
             <span className="flex items-center gap-1.5 justify-center">
-              <Download className="w-3.5 h-3.5 text-primary" /> Descarga inmediata
+              <Download className="w-3.5 h-3.5 text-primary" /> Disponible hoy
             </span>
             <span className="flex items-center gap-1.5 justify-center">
               <Shield className="w-3.5 h-3.5 text-primary" /> Pago 100% seguro
@@ -90,7 +94,7 @@ const PriceSection = () => {
 
           <div className="flex items-center justify-center gap-2 mt-4 text-xs text-muted-foreground">
             <span className="inline-block text-base">🇨🇴</span>
-            <span>Contenido pensado para Colombia y Latinoamérica</span>
+            <span>Contenido aplicable para Colombia y toda Latinoamérica</span>
           </div>
         </motion.div>
       </div>

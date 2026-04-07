@@ -3,24 +3,24 @@ import { TrendingDown, AlertTriangle, Brain, Ban } from "lucide-react";
 
 const problems = [
   {
-    icon: TrendingDown,
-    title: "Tu dinero pierde valor cada día",
-    desc: "La inflación destruye tus ahorros. Lo que hoy compras con $100, mañana solo te alcanza para la mitad. En Latinoamérica esto es una realidad constante.",
-  },
-  {
     icon: AlertTriangle,
-    title: "Tienes miedo de perder dinero",
-    desc: "La falta de conocimiento te paraliza. Sientes que invertir es arriesgado y prefieres no hacer nada.",
+    title: "Te da miedo perder dinero",
+    desc: "Quieres invertir pero el miedo te frena. Sientes que si haces algo mal, vas a perder lo poco que tienes. Y preferís no hacer nada.",
   },
   {
     icon: Brain,
-    title: "Demasiada información confusa",
-    desc: "Videos, cursos, gurús... todos te dicen algo distinto. No sabes por dónde empezar ni en quién confiar.",
+    title: "No sabes por dónde empezar",
+    desc: "Has visto videos, leído artículos, escuchado consejos… pero cada uno dice algo diferente. Terminas más confundido que antes.",
+  },
+  {
+    icon: TrendingDown,
+    title: "Tu dinero pierde valor cada día",
+    desc: "La inflación se come tus ahorros sin que te des cuenta. Lo que hoy puedes comprar con $100, mañana te alcanza para menos.",
   },
   {
     icon: Ban,
-    title: '"Invertir es solo para ricos"',
-    desc: "Crees que necesitas mucho capital para empezar. La realidad es que puedes arrancar con montos pequeños desde cualquier país.",
+    title: "Crees que necesitas mucho dinero",
+    desc: "Piensas que invertir es solo para personas con grandes capitales. La realidad es que puedes empezar con montos pequeños desde cualquier país.",
   },
 ];
 
@@ -38,7 +38,7 @@ const ProblemSection = () => {
             ¿Te sientes identificado con <span className="text-gradient-gold">alguno de estos problemas</span>?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Si no haces nada, tu dinero seguirá perdiendo valor. Estos son los problemas más comunes que enfrentan las personas que aún no invierten.
+            Si no haces nada, tu situación financiera no va a cambiar. Estos son los obstáculos más comunes de quienes aún no invierten.
           </p>
         </motion.div>
 

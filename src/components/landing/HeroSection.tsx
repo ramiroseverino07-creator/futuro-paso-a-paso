@@ -22,27 +22,31 @@ const HeroSection = () => {
           </span>
 
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Cómo empezar a invertir desde cero en Colombia{" "}
+            Cómo empezar a invertir desde cero en Colombia sin perder dinero en tus primeros pasos{" "}
             <span className="text-gradient-gold">(aunque no sepas nada)</span>
           </h1>
 
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-            5 guías prácticas para pasar de principiante a inversionista con claridad, sin experiencia previa y sin promesas irreales. Ideal para Colombia y toda Latinoamérica.
+            Un sistema simple y paso a paso para entender qué hacer con tu dinero, incluso si hoy estás completamente perdido.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-10">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
             <a
               href="https://pay.hotmart.com/L103671504W"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-gold text-primary-foreground font-bold text-lg px-10 py-4 rounded-lg glow-gold hover:scale-105 transition-transform duration-300 w-full sm:w-auto text-center"
             >
-              Empezar hoy por $10 USD
+              Quiero empezar a invertir hoy
             </a>
           </div>
 
-          <p className="text-xs text-muted-foreground mb-6">
-            Paga en tu moneda local · Precio promocional por tiempo limitado
+          <p className="text-sm text-muted-foreground mb-8">
+            Acceso inmediato · Pago único · Garantía 7 días · Válido en toda LATAM
+          </p>
+
+          <p className="text-xs text-primary/80 italic mb-6">
+            Contenido aplicable para Colombia y toda Latinoamérica
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center text-sm text-muted-foreground">
@@ -56,7 +60,7 @@ const HeroSection = () => {
               <Shield className="w-4 h-4 text-primary" /> Garantía 7 días
             </span>
             <span className="flex items-center gap-2 justify-center">
-              <Globe className="w-4 h-4 text-primary" /> Válido en toda Latinoamérica
+              <Globe className="w-4 h-4 text-primary" /> Disponible hoy
             </span>
           </div>
         </motion.div>
