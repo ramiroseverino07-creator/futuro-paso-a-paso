@@ -5,26 +5,26 @@ const guides = [
   {
     icon: BookOpen,
     level: "PRINCIPIANTE",
-    title: "Finanzas personales y organización del dinero",
+    title: "Ordena tu dinero y entiende cómo funciona invertir",
     items: [
-      "Qué es invertir y por qué es fundamental",
-      "Tipos básicos de inversión: acciones, bonos, cripto",
-      "Regla del 50/30/20 para organizar tu dinero",
-      "Cómo crear tu fondo de emergencia",
-      "Errores comunes que debes evitar",
+      "Entiende qué es invertir y por qué es clave para tu futuro",
+      "Conoce los tipos de inversión sin confundirte",
+      "Organiza tu dinero para que te alcance y sobre",
+      "Crea tu fondo de emergencia antes de invertir",
+      "Evita los errores que hacen perder dinero a principiantes",
     ],
     color: "from-emerald-500/20 to-emerald-900/10",
   },
   {
     icon: Brain,
     level: "INTERMEDIO",
-    title: "Mentalidad, interés compuesto y estrategia",
+    title: "Aprende cómo hacer crecer tu dinero aunque empieces con poco",
     items: [
-      "La importancia de tener un plan de inversión",
-      "Diversificación inteligente del portafolio",
-      "El poder del interés compuesto",
-      "Análisis fundamental vs. técnico",
-      "Gestión de riesgo y control emocional",
+      "Arma un plan de inversión simple y realista",
+      "Diversifica sin complicarte la vida",
+      "Entiende el interés compuesto y cómo te beneficia",
+      "Aprende a analizar antes de invertir",
+      "Controla tus emociones para no tomar malas decisiones",
     ],
     color: "from-blue-500/20 to-blue-900/10",
     featured: true,
@@ -32,13 +32,13 @@ const guides = [
   {
     icon: TrendingUp,
     level: "AVANZADO",
-    title: "Cómo abrir un broker y hacer tu primera inversión",
+    title: "Abre tu primer broker y haz tu primera inversión real",
     items: [
-      "Pensar como un gestor de portafolio",
-      "Evaluación de rendimiento ajustado al riesgo",
-      "Rebalanceo y optimización de cartera",
-      "Abrir tu primer broker paso a paso",
-      "Tu primera inversión real con confianza",
+      "Piensa como un inversionista con experiencia",
+      "Entiende cómo evaluar si tu inversión va bien",
+      "Ajusta tu portafolio sin depender de nadie",
+      "Abre tu primer broker paso a paso sin confundirte",
+      "Haz tu primera inversión real con confianza",
     ],
     color: "from-amber-500/20 to-amber-900/10",
   },
@@ -48,12 +48,12 @@ const bonuses = [
   {
     icon: Sparkles,
     title: "Mentalidad del Inversionista",
-    desc: "Cómo pensar, actuar y decidir como un ganador. Principios, hábitos y estrategias mentales para el éxito sostenible.",
+    desc: "Cómo pensar y actuar para tomar buenas decisiones con tu dinero. Principios y hábitos que te van a acompañar siempre.",
   },
   {
     icon: GraduationCap,
     title: "Educación Financiera",
-    desc: "El primer paso hacia la libertad. Entiende el dinero, la inflación, y cómo los gobiernos afectan tus ahorros.",
+    desc: "El primer paso hacia la libertad financiera. Entiende cómo funciona el dinero, la inflación y cómo proteger tus ahorros.",
   },
 ];
 
@@ -71,7 +71,7 @@ const IncludedSection = () => {
             ¿Qué incluye el <span className="text-gradient-gold">pack completo</span>?
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            5 guías PDF profesionales creadas por Ramiro Severino. Todo lo que necesitas para ir de cero a inversionista inteligente.
+            5 guías PDF pensadas para que pases de no saber nada a invertir con claridad y confianza.
           </p>
         </motion.div>
 
