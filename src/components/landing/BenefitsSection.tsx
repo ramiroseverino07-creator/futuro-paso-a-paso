@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Eye, ShieldCheck, AlertCircle, Coins, Clock } from "lucide-react";
+import { Eye, ShieldCheck, AlertCircle, Coins, Clock, TrendingUp } from "lucide-react";
 
 const benefits = [
   { icon: Eye, title: "Claridad total", desc: "Vas a entender exactamente cómo funciona el mundo de las inversiones, sin tecnicismos innecesarios." },
@@ -7,6 +7,7 @@ const benefits = [
   { icon: AlertCircle, title: "Evita errores costosos", desc: "Aprende de los errores que otros ya cometieron para no repetirlos con tu dinero." },
   { icon: Coins, title: "Empieza con poco", desc: "No necesitas grandes montos. Aprende a invertir con lo que tienes disponible hoy." },
   { icon: Clock, title: "A tu propio ritmo", desc: "Material descargable que puedes releer cuando quieras, sin presiones ni fechas límite." },
+  { icon: TrendingUp, title: "Visión a largo plazo", desc: "Aprende a pensar como un inversionista real y a construir riqueza de forma sostenible con el tiempo." },
 ];
 
 const BenefitsSection = () => {
