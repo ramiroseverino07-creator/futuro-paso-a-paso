@@ -74,7 +74,7 @@ const TestimonialsSection = () => {
                 "{t.text}"
               </p>
               <p className="text-sm font-semibold">
-                — {t.name}, <span className="text-muted-foreground font-normal">{t.age} años</span>
+                — {t.name}, <span className="text-muted-foreground font-normal">{t.age} años · {t.occupation}</span>
               </p>
             </motion.div>
           ))}
