@@ -14,8 +14,8 @@ const FirstSaleSection = () => {
             PRUEBA SOCIAL
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold mb-8">
-            Primera venta realizada durante{" "}
-            <span className="text-gradient-gold">nuestro primer lanzamiento</span>
+            Primeras ventas confirmadas durante{" "}
+            <span className="text-gradient-gold">el primer lanzamiento</span>
           </h2>
 
           <div className="bg-gradient-card rounded-2xl border border-border p-3 sm:p-4 mb-6 overflow-hidden">
@@ -28,7 +28,7 @@ const FirstSaleSection = () => {
           </div>
 
           <p className="text-secondary-foreground text-sm sm:text-base leading-relaxed max-w-xl mx-auto">
-            Una persona ya dio el primer paso para comenzar su educación financiera con este pack.
+            Estas guías ya están llegando a personas que decidieron dar el primer paso para mejorar su educación financiera e iniciar su camino como inversores.
           </p>
         </motion.div>
       </div>

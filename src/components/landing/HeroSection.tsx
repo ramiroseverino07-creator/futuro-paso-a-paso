@@ -31,7 +31,7 @@ const HeroSection = () => {
 
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card/50 backdrop-blur-sm text-xs sm:text-sm text-secondary-foreground mb-10">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            Más de 300 personas visitaron esta página durante nuestro primer lanzamiento.
+            Más de 300 personas visitaron esta página durante nuestro primer lanzamiento y cada semana nuevas personas descubren esta guía para invertir desde cero de forma simple y segura.
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
