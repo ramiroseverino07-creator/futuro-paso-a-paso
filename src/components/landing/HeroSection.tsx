@@ -22,13 +22,18 @@ const HeroSection = () => {
           </span>
 
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Cómo empezar a invertir desde cero en Colombia sin perder dinero en tus primeros pasos{" "}
-            <span className="text-gradient-gold">(aunque no sepas nada)</span>
+            Empieza a invertir en Colombia aunque tengas poco dinero,{" "}
+            <span className="text-gradient-gold">paso a paso</span>
           </h1>
 
-          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-            Un sistema simple y paso a paso para entender qué hacer con tu dinero, incluso si hoy estás completamente perdido.
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
+            Un pack pensado para principiantes que quieren aprender a invertir desde cero, de forma simple, práctica y sin tecnicismos.
           </p>
+
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card/50 backdrop-blur-sm text-xs sm:text-sm text-secondary-foreground mb-10">
+            <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+            Más de 300 personas visitaron esta página durante nuestro lanzamiento.
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
             <a
