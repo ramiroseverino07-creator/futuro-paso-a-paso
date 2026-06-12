@@ -8,6 +8,8 @@ import WhoIsForSection from "@/components/landing/WhoIsForSection";
 import AboutSection from "@/components/landing/AboutSection";
 import PriceSection from "@/components/landing/PriceSection";
 import GuaranteeSection from "@/components/landing/GuaranteeSection";
+import WhyDifferentSection from "@/components/landing/WhyDifferentSection";
+import FirstSaleSection from "@/components/landing/FirstSaleSection";
 import FAQSection from "@/components/landing/FAQSection";
 import Footer from "@/components/landing/Footer";
 
@@ -24,6 +26,8 @@ const Index = () => {
       <AboutSection />
       <PriceSection />
       <GuaranteeSection />
+      <FirstSaleSection />
+      <WhyDifferentSection />
       <FAQSection />
       <Footer />
     </main>
