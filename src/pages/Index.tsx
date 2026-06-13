@@ -22,12 +22,12 @@ const Index = () => {
       <IncludedSection />
       <BenefitsSection />
       <TestimonialsSection />
+      <FirstSaleSection />
+      <WhyDifferentSection />
       <WhoIsForSection />
       <AboutSection />
       <PriceSection />
       <GuaranteeSection />
-      <FirstSaleSection />
-      <WhyDifferentSection />
       <FAQSection />
       <Footer />
     </main>
