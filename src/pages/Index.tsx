@@ -21,6 +21,14 @@ const Index = () => {
       <SolutionSection />
       <IncludedSection />
       <BenefitsSection />
+
+      {/* Separador decorativo dorado */}
+      <div className="flex items-center justify-center gap-4 px-4 -mt-6 mb-6">
+        <div className="h-px flex-1 max-w-xs bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
+        <div className="w-2 h-2 rotate-45 bg-primary/60" />
+        <div className="h-px flex-1 max-w-xs bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
+      </div>
+
       <FirstSaleSection />
       <WhyDifferentSection />
       <WhoIsForSection />
