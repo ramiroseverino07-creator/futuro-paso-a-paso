@@ -21,10 +21,10 @@ const Index = () => {
       <SolutionSection />
       <IncludedSection />
       <BenefitsSection />
-      <TestimonialsSection />
       <FirstSaleSection />
       <WhyDifferentSection />
       <WhoIsForSection />
+      <TestimonialsSection />
       <AboutSection />
       <PriceSection />
       <GuaranteeSection />
