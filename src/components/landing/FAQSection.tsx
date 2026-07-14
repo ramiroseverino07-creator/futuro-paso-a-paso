@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "¿Las guías funcionan en todos los países de Latinoamérica?",
-    a: "Sí. Los conceptos y estrategias son universales y aplican para cualquier país de Latinoamérica. Puedes pagar en tu moneda local.",
+    a: "Sí. Los conceptos y estrategias son universales y aplican para cualquier país de Latinoamérica. Puedes pagar en tu moneda local (ARS, MXN, PEN, etc.).",
   },
   {
     q: "¿Voy a aprender a usar un broker real?",
