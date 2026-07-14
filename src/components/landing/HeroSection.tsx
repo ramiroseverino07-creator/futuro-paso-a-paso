@@ -50,7 +50,7 @@ const HeroSection = () => {
           </p>
 
           <p className="text-xs text-primary/80 italic mb-6">
-            Contenido aplicable para Colombia y toda Latinoamérica
+            Contenido aplicable para toda Latinoamérica
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center text-sm text-muted-foreground">
