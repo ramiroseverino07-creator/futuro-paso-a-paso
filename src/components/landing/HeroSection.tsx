@@ -22,7 +22,7 @@ const HeroSection = () => {
           </span>
 
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Cómo empezar a invertir en <span className="text-gradient-gold">Colombia</span> aunque tengas poco dinero
+            Cómo aprender a invertir <span className="text-gradient-gold">desde cero paso a paso</span>
           </h1>
 
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
