@@ -52,7 +52,7 @@ const PriceSection = () => {
           <span className="text-muted-foreground text-sm block mb-2">USD · Pago único</span>
 
           <span className="text-primary/80 text-xs block mb-2 italic">
-            Puedes pagar en tu moneda local (COP, MXN, PEN y más).
+            Puedes pagar en tu moneda local (ARS, MXN, PEN y más).
           </span>
 
           <span className="inline-block bg-primary/10 text-primary text-xs font-bold px-3 py-1 rounded-full mb-8">
