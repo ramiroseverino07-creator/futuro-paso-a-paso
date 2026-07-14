@@ -28,7 +28,7 @@ const faqs = [
     a: "Tienes una garantía de satisfacción de 7 días. Si no estás conforme, te devolvemos el 100% de tu dinero sin preguntas.",
   },
   {
-    q: "¿Las guías funcionan para Colombia y otros países?",
+    q: "¿Las guías funcionan en todos los países de Latinoamérica?",
     a: "Sí. Los conceptos y estrategias son universales y aplican para cualquier país de Latinoamérica. Puedes pagar en tu moneda local.",
   },
   {
@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "¿El precio está en dólares?",
-    a: "Sí, el precio es de $10 USD. La plataforma de pago convierte automáticamente a tu moneda local (pesos colombianos, pesos mexicanos, soles, etc.).",
+    a: "Sí, el precio es de $10 USD. La plataforma de pago convierte automáticamente a tu moneda local (pesos argentinos, pesos mexicanos, soles, etc.).",
   },
 ];
 
